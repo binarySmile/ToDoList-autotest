@@ -1,11 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestTodoList" verbose="2" >
+<suite name="Todolistme-test" >
     <test name="test1" >
         <classes>
-            <class name="todolist.my.test.tests.TestTodoPanel"/>
-            <class name="todolist.my.test.tests.TestNewList"/>
-            <class name="todolist.my.test.tests.TestCategoryPanel"/>
+            <class name="com.github.binarySmile.todolistautotest.tests.CategoryPanelTest"/>
+            <class name="com.github.binarySmile.todolistautotest.tests.MovingTodoTest"/>
+            <class name="com.github.binarySmile.todolistautotest.tests.NewListTest"/>
+            <class name="com.github.binarySmile.todolistautotest.tests.TodoPanelTest"/>
         </classes>
     </test>
 </suite>
