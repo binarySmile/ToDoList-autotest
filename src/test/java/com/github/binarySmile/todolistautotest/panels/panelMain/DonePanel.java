@@ -11,7 +11,8 @@ public class DonePanel extends PageObjects implements Panel {
 
     @Override
     public ElementsCollection getList() {
-        return doneList;
+
+        return doneList.shouldHaveSize(0);
     }
 
     @Override
@@ -21,6 +22,6 @@ public class DonePanel extends PageObjects implements Panel {
 
     public void deleteTodo(String name) {
         getByName(name).hover();
-        getByName(name).$("img").click();
+        getByName(name).$(".delete").click();
     }
 }
