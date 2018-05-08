@@ -1,5 +1,5 @@
 # Todolist-autotest
-This is a test task for one of the companies. This task includes the implementation of PageObject pattern and the use of Properties.
+This is a test task for one of the companies. This task includes the implementation of PageObject pattern and the use of Properties. Another variant for testing this site is: https://github.com/binarySmile/Todolistme-autotest
 
   >The task is as follows:
  
@@ -12,6 +12,7 @@ This is a test task for one of the companies. This task includes the implementat
 * Java 8
 * Selenide
 * TestNG
+* Allure
 * PageObject pattern
 
 **How to install and run**
